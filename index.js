@@ -7,7 +7,7 @@ app.use(express.json())
 app.use('/auth', authRouter)
 
 try {
-  const url = 'mongodb+srv://JWT2:9sDo5RTFW6e3steQ@cluster0.hhgs9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+  const url = ''
   mongoose.connect(url)
   app.listen(3000, 
     console.log('Server is running...')
